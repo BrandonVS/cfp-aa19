@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+
+<style>
+body{
+	background-color: #dfdfdf;
+}
+.step {
+	display: block;
+	width: 700px;
+	height: 700px;
+	padding: 30px 30px;
+	background-color: white;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+	border: 1px solid rgba(0, 0, 0, .3);
+	border-radius: 20px;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+	font-family: Arial, sans-serif;
+	font-size: 40px;
+}
+</style>
+</head>
+<body>
+
+<div id="impress" data-autoplay="60">
+
+<div class="step" data-x="0" data-y="0">
+	<h1>Evolución de los paradigmas de los lenguajes de programación</h1>
+	<p>Por: Brandon Vega</p>
+</div>
+
+<div class="step" data-x="380" data-y="0" data-z="-380" data-rotate-y="90">
+	<h1>¿Qué son?</h1>
+	<p>Los paradigmas en los lenguajes de programacion son metodos para realizar computos y organizar las tareas que realizara un programa.</p>
+	<img src="imagenes/PET-basic.png" alt="PET-basic" height="300">
+</div>
+
+<div class="step" data-x="0" data-y="0" data-z="-760" data-rotate-y="180">
+	<h1>¿Para qué sirven?</h1>
+	<p>Nos sirven para resolver uno o varios problemas computacionales. Dependiendo del paradigma, nos será más sencillo resolver sierto tipo de problema.</p>
+	<img src="imagenes/lenguajeslogos.jpg" alt="lenguajeslogos" height="250" width="500">
+</div>
+
+<div class="step" data-x="-380" data-y="0" data-z="-380" data-rotate-y="270">
+	<h1>Scrum</h1>
+	<p>Scrum es el nombre que se le da a marcos de desarrollo agiles para la programacion. Estan caracterizados por:</p>
+	<p>1) Adoptar estrategias de desarrollo incremental</p>
+	<p>2) Solapamiento de las fases del desarrollo, en lugar de realizar una tras otra.</p>
+</div>
+
+<div class="step" data-x="0" data-y="-380" data-z="-380" data-rotate-x="90">
+	<h1>Extreme programing</h1>
+	<p>Extreme programing es un framework de desarrollo agil de software. Este apunta a crear software de alta calidad de manera rapida.</p>
+	<img src="imagenes/Extreme_Programming.png" alt="Extreme_Programming" height="225" width="300">
+</div>
+ 
+<div class="step" data-x="0" data-y="380" data-z="-380" data-rotate-x="-90">
+	<img src="imagenes/gracias.jpg" alt="gracias" height="650" width="700">
+ </div>
+
+ <div class="step" data-x="10000" data-y="0" data-z="10000" data-rotate-x="90">
+ 	<h1>Bibliografia:</h1>
+ 	<p>https://es.wikipedia.org/wiki/ Lenguaje_de_programaci%C3%B3n</p>
+ 	<p>http://www.alegsa.com.ar/Diccionario/ C/ 23327.php</p>
+ 	<p>https://en.wikipedia.org/wiki/ Extreme_programming</p>
+ 	<p>https://es.wikipedia.org/wiki/ Scrum_(desarrollo_de_software)</p>
+ </div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
